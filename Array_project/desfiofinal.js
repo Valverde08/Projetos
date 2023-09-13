@@ -71,11 +71,3 @@ function finalizar (){
 
 
 
-function resetar(){
-    let res = document.getElementById("res");
-    let res1 = document.getElementById("fim");
-    var list = [];
-
-    res.innerHTML = ``;
-    res1.innerHTML = ``;
-}

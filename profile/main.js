@@ -7,12 +7,12 @@ function toggleMode(){
 
     if(body.classList.contains("light")){
         
-        img.setAttribute("src ","imagens/avatar-light.png")
+        img.setAttribute("src ","imagens/vini2.png")
 
         
     } else {
         
-        img.setAttribute("src ","imagens/avatarS.png")
+        img.setAttribute("src ","imagens/vini1.png")
     }
 
 }

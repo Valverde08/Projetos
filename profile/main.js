@@ -7,19 +7,18 @@ function toggleMode(){
     const img = document.querySelector("#profile img")
     
 
-    // if(body.classList.contains("light")){
-    //     body.classList.remove("light")
-        
-    //     img.setAttribute.src = "./imagens/vini1.png"
+    if(body.classList.contains("light")){
+        body.classList.remove("light")  
+        img.setAttribute.src = "./imagens/vini1.png"
+
+            
+    } else {
+        body.classList.add("light")
+            
+        img.setAttribute.src = "./imagens/vini2.png"
+    }
 
         
-    // } else {
-    //     body.classList.add("light")
-        
-    //     img.setAttribute.src = "./imagens/vini2.png"
-
-    // }
-
    
 
     

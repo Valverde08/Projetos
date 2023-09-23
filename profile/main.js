@@ -1,18 +1,27 @@
 function toggleMode(){
+
+
     const body = document.body
     body.classList.toggle("light")
-   
 
     const img = document.querySelector("#profile img")
+    
 
-    if(body.classList.contains("light")){
+    // if(body.classList.contains("light")){
+    //     body.classList.remove("light")
         
-        img.setAttribute("src ","imagens/vini2.png")
+    //     img.setAttribute.src = "./imagens/vini1.png"
 
         
-    } else {
+    // } else {
+    //     body.classList.add("light")
         
-        img.setAttribute("src ","imagens/vini1.png")
-    }
+    //     img.setAttribute.src = "./imagens/vini2.png"
+
+    // }
+
+   
+
+    
 
 }
